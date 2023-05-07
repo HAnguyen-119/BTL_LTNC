@@ -57,7 +57,7 @@ int main(int argc, char* argv[])
     {
         cout <<  "Unable to initialize SDL2_mixer : " << Mix_GetError();
     }
-    Mix_Music* music = Mix_LoadMUS("music.wav");
+    Mix_Music* music = Mix_LoadMUS("music.mp3");
     if (music == NULL){
         cout << "Unable to load music " << Mix_GetError();
     }
